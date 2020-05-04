@@ -2,10 +2,7 @@
 
 body {background: url(images/body.jpg) repeat;}
 
-.clear-block {
-    display: block; 
-    clear: both;
-}
+.clear-block {display: block; clear: both;}
 
 .top-bar {
     background: url(images/top-bar.jpg) repeat top center; 
@@ -43,13 +40,6 @@ hr {
     margin: 15px 0;
 }
 
-a {
-    color: #a2ccd0;
-    text-decoration: none;
-}
-
- a:hover {color: #badee1;}   
-
 /* Header ==============================    */  
 
 #header {margin-bottom: 20px;}
@@ -76,7 +66,7 @@ h1.site-logo a {
     float: left;
     margin-right: 5px;
 }
-  
+ 
 #navigation a {
     color: #e8d4af;
     text-decoration: none;
@@ -91,10 +81,9 @@ h1.site-logo a {
     padding-top: 8px;
 }  
 
-#navigation a:hover,
-#navigation a.active { background: url(images/navigation-hover.jpg);}                              
+#navigation a:hover {background: url(images/navigation-hover.jpg);}                              
 
-#navigation .search {float: right;}
+#navigation .search {float: right; }
 
 #navigation .search input.form-text {
     background: url(images/form-text.jpg) repeat-x;
@@ -128,6 +117,28 @@ h1.site-logo a {
 
 /*Primary ==============================    */
 
+/*This makes the page degrade gracefully without javascript   */
+.scroller #fade {
+    height: 261px;    
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.scroller .innerfade {
+    height: 261px;    
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    overflow: visible !important; 
+}
+
+.feature-content {
+    float: right;
+    width: 455px;
+}
+
 #primary h3 {
     color: #b3b496;
     font-family: Georgia, Palatino, serif;
@@ -138,11 +149,12 @@ h1.site-logo a {
     font-weight: normal;
 }
 
-#primary h1.page-title {
+#primary h1 a {
     font-weight: normal;
-    color: #d1a773;
     font-family: Georgia, Palatino, serif;  
-    font-size: 50px;       
+    font-size: 50px;
+    color: #a2ccd0;
+    text-decoration: none;
 }
 
 #primary h1 a:hover {color: #badee1;}
@@ -155,145 +167,14 @@ h1.site-logo a {
     line-height: 20px;
 }
 
-#primary h2 {
-    color:#E8D4AF;
-    font-family:Georgia,Palatino,serif;
-    font-size:24px;
-    font-weight:normal;
-    letter-spacing:1px;
-    line-height:20px;
-    margin:0 0 10px;
-}
-
-#primary p,
-#primary li {
+#primary p {
     color: #f4e6cc;
     font-size: 11px;
     font-family: arial, verdana, sans-serif;
     line-height: 15px;
-    margin-bottom: 15px;
-}
-
-#primary ul li {
-    margin-left: 30px;
-    list-style: square;
-    margin-bottom: 5px; 
-}
-
-#primary ol li {
-    margin-left: 30px;
-    list-style: decimal;
-    margin-bottom: 5px; 
-}
-
-#primary img {border: 5px solid #454439;}
-
-#primary img.img-right {
-    margin: 0 0 5px 20px; 
-    float: right;
-}
-
-#primary img.img-left {
-    margin: 0 20px 5px 0; 
-    float: left;
-} 
-
-#primary .column-1 {
-    width: 460px;
-    float: left;
-    margin-top: 15px;
-}
-
-#primary .column-2 {
-    width: 460px;
-    float: right;
-    margin-top: 15px;
-}
-
-.news #primary .column-1 {
-    width: 700px;
-    float: left;
-    margin-top: 15px;
-}
-
-.news #primary .column-2 {
-    width: 220px;
-    float: right;
-    margin-top: 15px;
-}
-
-#primary .item {
-    border-bottom:1px dotted #8A8571;
-    float:left;
-    margin-bottom:20px;
-    padding-bottom:15px;
-}
-
-#primary ul,
-#primary ol {margin-bottom: 20px;}
-
-#primary .submitted {
-    font-style: italic;
-    font-size: 10px;
-}
-
-#primary .contact-form {padding-top: 10px;}
-
-#primary .contact-form label {
-    width: 40px;
-    float: left;
-    margin-top: 5px;
-}
-
-#primary .contact-form textarea {
-    height: 100px; 
-    width: 400px;
-    margin-top: 5px;
-}
-
-#primary .contact-form input {
-    background: url(images/form-text.jpg) repeat-x;
-    color: #5b5a4e;
-    font-family: arial, verdana, sans-serif;
-    font-size: 11px;
-    border: none;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;
-    padding: 6px 10px;
-}
-
-#primary .contact-form textarea {
-    background: url(images/form-text.jpg) repeat-x bottom #f0e4c5;
-    color: #5b5a4e;
-    font-family: arial, verdana, sans-serif;
-    font-size: 11px;
-    border: none;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;
-    padding: 6px 10px;
-}
-
-#primary .contact-form input.submit-button { 
-    text-decoration: none;
-    font-family: Georgia, Palatino, serif;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    height: 27px;
-    width: 81px;   
-    text-align: center; 
-    border: none;
-    background: url(images/navigation-hover.jpg) no-repeat;
-    color: #b3b496;
-}
-
-#primary .contact-form input.submit-button:hover { 
-    cursor: pointer;
-    color: #E8D4AF;
 }
 
 /*Bottom Container ==============================    */
-
 #bottom-container {
     background: url(images/bottom.jpg) repeat-x;
     margin-top: 30px;
@@ -357,9 +238,9 @@ h1.site-logo a {
 #tertiary .inside {padding: 30px;}
 
 #tertiary {
-    float: right; 
+    float: right;
     width: 50%;
-}
+ }
 
 #tertiary h3 {
     color: #b3b496;

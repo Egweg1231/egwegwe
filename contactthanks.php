@@ -4,36 +4,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Premium HTML Template by wwww.creativestable.com" />
     <meta name="keywords" content="" />
-    <title>Paragon Stables | Boarding, Training, and Sales of Quality Sport Horses in Vancouver, BC</title>
-    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <title>Message Sent | Paragon Stables</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" /> 
     
     <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/front.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" /> 
     <!--[if lt IE 8]>
     <link rel="stylesheet" type="text/css" href="css/ie.css" />
     <script type="text/javascript" src="js/dd_belatedpng.js"></script>
     <script> DD_belatedPNG.fix('.pngfix'); </script>
     <![endif]--> 
-    
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.innerfade.js"></script>
-    
-    <script type="text/javascript">
-       $(document).ready(
-                function(){
-                    $('#fade').innerfade({
-                        animationtype: 'fade',
-                        speed: 'slow',
-                        timeout: 2000,
-                        type: 'sequence',
-                        containerheight: '261px',
-                        runningclass: 'innerfade'
-                    });          
-            });
-      </script>
 </head>
 
-<body class="front">
+<body>
 <div class="top-bar"></div><!--End top-bar -->
 <div id="container">
 
@@ -57,19 +40,9 @@
     </div><!--End header -->
     
     <div id="primary">
-        <div class="scroller">
-                <ul id="fade">
-                    <li><img src="files/slider-1.jpg" alt="First Scroller Image" /></li>
-                    <li><img src="files/slider-2.jpg" alt="Second Scroller Image" /></li> 
-                    <li><img src="files/slider-3.jpg" alt="Third Scroller Image" /></li> 
-                </ul>
-        </div><!--End scroller-->
-        <div class="feature-content">
-            <h3>&#187; Stallion Spotlight</h3>
-            <h1><a href="#">Artisan</a></h1>
-            <p class="subhead">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-        </div><!--End feature-content -->
+            <h3>&#187; Your Message Has Been Sent</h3>
+            <h1 class="page-title">Success!</h1>
+            <p>Thanks for your message! We will get back to you as soon as possible!</p>
     </div><!--End primary -->
     
     <div class="clear-block"></div>
@@ -95,6 +68,7 @@
             <p class="view-more"><a href="#">View More &#187;</a></p>
         </div><!--End inside -->
     </div><!--End secondary --> 
+    
     <div id="tertiary">
         <div class="inside"> 
             <h3>&#187; Recent News</h3>
